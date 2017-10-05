@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Videogame DB Homepage</title>
+        
     </head>
     <body>
         <h1>Videogame Database Starting Page</h1>
