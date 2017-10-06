@@ -50,7 +50,7 @@ public class ReadQuery {
     
     public void doRead(){
         try {
-            String query = "Select * from VIDEO_GAMES";
+            String query = "Select * from videogames";
             
             PreparedStatement ps = conn.prepareStatement(query);
             this.results = ps.executeQuery();
@@ -78,21 +78,21 @@ public class ReadQuery {
                 videogame.setRating(this.results.getInt("rating"));
                 
                 table += "<tr>";
-                table += "<td>";
-                table += videogame.getV_id();
-                table += "</td>";
-                table += "<td>";
-                table += videogame.getV_name();
-                table += "</td>";    
-                table += "<td>";
-                table += videogame.getYears_old();
-                table += "</td>";    
-                table += "<td>";
-                table += videogame.getGame_type();
-                table += "</td>";    
-                table += "<td>";
-                table += videogame.getRating();
-                table += "</td>";
+                    table += "<td>";
+                        table += videogame.getV_id();
+                    table += "</td>";
+                    table += "<td>";
+                        table += videogame.getV_name();
+                    table += "</td>";    
+                    table += "<td>";
+                        table += videogame.getYears_old();
+                    table += "</td>";    
+                    table += "<td>";
+                        table += videogame.getGame_type();
+                    table += "</td>";    
+                    table += "<td>";
+                        table += videogame.getRating();
+                    table += "</td>";
                 table += "</tr>";
                 
                 

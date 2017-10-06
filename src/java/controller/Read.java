@@ -55,6 +55,7 @@ public class Read extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
         doPost(request, response);
     }
 
@@ -81,7 +82,7 @@ public class Read extends HttpServlet {
                 RequestDispatcher dispatcher = request.getRequestDispatcher(url);
                 dispatcher.forward(request, response);
                 
-        processRequest(request, response);
+        
     }
 
     /**
