@@ -4,6 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/Users/mattbentley/NetBeansProjects/hw4/src/java/dbHelpers/ReadQuery.java</file>
+            <file>file:/Users/mattbentley/NetBeansProjects/hw4/src/java/controller/Read.java</file>
+            <file>file:/Users/mattbentley/NetBeansProjects/hw4/src/java/model/Videogames.java</file>
+            <file>file:/Users/mattbentley/NetBeansProjects/hw4/web/read.jsp</file>
+            <file>file:/Users/mattbentley/NetBeansProjects/hw4/src/java/dbHelpers/dbConnection.properties</file>
         </group>
     </open-files>
 </project-private>

@@ -4,6 +4,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Videogame Database</title>
+        <link rel = 'stylesheet' type = 'text/css' href = 'hw4css.css'/>
     </head>
     
     <% String table = (String) request.getAttribute("table"); %>
